@@ -1,0 +1,22 @@
+{
+    "name": "fedyak/php-yc-iamtoken",
+    "version": "1.0",
+    "description": "IAM-token for a Yandex Cloud service account",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Fedor Kornilev",
+            "email": "fedor.nt82@mail.ru"
+        }
+    ],
+    "require": {
+        "php": "^7.0",
+        "phpseclib/phpseclib": "^2.0",
+        "ixudra/curl": "6.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "fedyak\\YandexCloudIAMToken\\": "src/YandexCloudIAMToken"
+        }
+    }
+}
